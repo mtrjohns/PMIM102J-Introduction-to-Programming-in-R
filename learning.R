@@ -39,11 +39,22 @@ while (i <= 10) {
     i <- i + 1
 }
 
-# Exercise: Slide 39
+# Exercise: Slide 39 (1)
 
-# While loop
+# While loop, Display the 12 times table
 i <- 0
 while ((i <= 12)) {
     cat(i, " * 12 = ", i * 12, "\n")
     i <- i + 1
     }
+
+# For loop, how would you display all the times tables from 2 – 12?
+for (i in 2:12) {
+    for (j in 2:12) {
+        cat(j, " * ", i, " = ", (j * i), "\n")
+    }
+}
+
+# Exercise: Slide 39 (2)
+# Display random numbers until you get a value < 0.1 or have 10 random numbers whichever happens first.
+# A random number can be calculated with:   runif(1)
