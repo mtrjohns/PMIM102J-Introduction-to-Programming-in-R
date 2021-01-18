@@ -39,3 +39,11 @@ while (i <= 10) {
     i <- i + 1
 }
 
+# Exercise: Slide 39
+
+# While loop
+i <- 0
+while ((i <= 12)) {
+    cat(i, " * 12 = ", i * 12, "\n")
+    i <- i + 1
+    }
