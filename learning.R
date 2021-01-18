@@ -24,3 +24,18 @@ if ((name == "Pete") | (name == "Tac")) {
     print("Hi!")
     name <- paste("[", name, "]")
 }
+
+# Loops: Slide 36
+
+# For Loop
+for (i in 1:10) {
+    cat(i, "\n")
+}
+
+# While Loop
+i <- 1
+while (i <= 10) {
+    cat(i, "\n")
+    i <- i + 1
+}
+
