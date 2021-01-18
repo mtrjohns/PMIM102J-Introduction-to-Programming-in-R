@@ -56,5 +56,6 @@ for (i in 2:12) {
 }
 
 # Exercise: Slide 39 (2)
-# Display random numbers until you get a value < 0.1 or have 10 random numbers whichever happens first.
+# Display random numbers until you get a value
+# < 0.1 or have 10 random numbers whichever happens first.
 # A random number can be calculated with:   runif(1)
